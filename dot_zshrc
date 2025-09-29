@@ -1,0 +1,28 @@
+fastfetch
+
+export PATH="$HOME/.rbenv/versions/3.2.6/bin:$PATH"
+export PATH="/Users/jacob-thompson/Library/Python/3.13/bin:$PATH"
+
+alias vim="nvim"
+alias vimrc="vim ~/.vimrc"
+alias zshrc="vim ~/.zshrc"
+alias aliases="zshrc"
+
+alias cfg="vim ~/.config"
+alias libcfg="vim ~/Library/'Application Support'"
+
+alias codekeys="code /Users/jacob-thompson/Library/'Application Support'/Code/User/keybindings.json"
+
+alias home="cd ~"
+
+alias serve="jekyll serve -l -H localhost"
+
+alias school="cd ~/Dropbox/school"
+
+alias nvimcfg="cd ~/.config/nvim"
+
+# For tkinter
+export PATH="/usr/local/opt/tcl-tk/bin:$PATH"
+
+# Created by `pipx` on 2024-11-10 06:11:30
+export PATH="$PATH:/Users/jacob-thompson/.local/bin"
