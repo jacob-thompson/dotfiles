@@ -10,16 +10,11 @@ alias aliases="zshrc"
 
 alias cfg="vim ~/.config"
 alias libcfg="vim ~/Library/'Application Support'"
-
-alias codekeys="code /Users/jacob-thompson/Library/'Application Support'/Code/User/keybindings.json"
-
-alias home="cd ~"
+alias nvimcfg="vim ~/.config/nvim"
 
 alias serve="jekyll serve -l -H localhost"
 
 alias school="cd ~/Dropbox/school"
-
-alias nvimcfg="cd ~/.config/nvim"
 
 # For tkinter
 export PATH="/usr/local/opt/tcl-tk/bin:$PATH"

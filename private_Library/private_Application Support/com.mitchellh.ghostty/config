@@ -26,3 +26,5 @@ adjust-cell-height = 20%
 clipboard-read = allow
 
 working-directory = home
+
+keybind = ctrl+x=text:\x03
