@@ -1,10 +1,6 @@
 fastfetch
 
-export PATH="$HOME/.rbenv/versions/3.2.6/bin:$PATH"
-export PATH="/Users/jacob-thompson/Library/Python/3.13/bin:$PATH"
-
 alias vim="nvim"
-alias vimrc="vim ~/.vimrc"
 alias zshrc="vim ~/.zshrc"
 alias aliases="zshrc"
 
@@ -14,9 +10,16 @@ alias nvimcfg="vim ~/.config/nvim"
 
 alias serve="jekyll serve -l -H localhost"
 
+alias documents="cd ~/Documents"
 alias school="cd ~/Dropbox/school"
 
-# For tkinter
+# Ruby
+export PATH="$HOME/.rbenv/versions/3.2.6/bin:$PATH"
+
+# Python
+export PATH="/Users/jacob-thompson/Library/Python/3.13/bin:$PATH"
+
+# tkinter
 export PATH="/usr/local/opt/tcl-tk/bin:$PATH"
 
 # Created by `pipx` on 2024-11-10 06:11:30
