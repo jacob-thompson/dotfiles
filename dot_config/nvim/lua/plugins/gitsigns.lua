@@ -1,3 +1,6 @@
+vim.keymap.set('n', ']g', '<Cmd>Gitsigns next_hunk<CR>', { desc = "Next Git hunk" })
+vim.keymap.set('n', '[g', '<Cmd>Gitsigns prev_hunk<CR>', { desc = "Previous Git hunk" })
+
 return {
     "lewis6991/gitsigns.nvim",
     event = "VeryLazy",
