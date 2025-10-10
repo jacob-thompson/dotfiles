@@ -1,1 +1,4 @@
-return { "tpope/vim-vinegar", name = "vinegar" }
+return {
+    "tpope/vim-vinegar",
+    name = "vinegar"
+}
