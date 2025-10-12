@@ -13,6 +13,9 @@ alias serve="jekyll serve -l -H localhost"
 alias documents="cd ~/Documents"
 alias school="cd ~/Dropbox/school"
 
+# teal8
+export PATH="$HOME/Documents/teal8/bin:$PATH"
+
 # Ruby
 export PATH="$HOME/.rbenv/versions/3.2.6/bin:$PATH"
 
