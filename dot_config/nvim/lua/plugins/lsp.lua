@@ -39,14 +39,9 @@ return {
                 "pylsp",
             },
             handlers = {
-                function(server_name) -- default handler (optional)
-                    require("lspconfig")[server_name].setup {
-                        capabilities = capabilities
-                    }
-                end,
-
                 clangd = function()
-                    require("lspconfig").clangd.setup {
+                    local lspconfig = require("lspconfig")
+                    lspconfig.clangd.setup {
                         capabilities = capabilities,
                         cmd = {
                             "clangd",
@@ -106,6 +101,10 @@ return {
                 ['<C-n>'] = cmp.mapping.select_next_item(cmp_select),
                 ['<C-y>'] = cmp.mapping.confirm({ select = true }),
                 ["<C-Space>"] = cmp.mapping.complete(),
+                ['<D-p>'] = cmp.mapping.select_prev_item(cmp_select),
+                ['<D-n>'] = cmp.mapping.select_next_item(cmp_select),
+                ['<D-y>'] = cmp.mapping.confirm({ select = true }),
+                ["<D-Space>"] = cmp.mapping.complete(),
             }),
             sources = cmp.config.sources({
                 { name = 'nvim_lsp' },
