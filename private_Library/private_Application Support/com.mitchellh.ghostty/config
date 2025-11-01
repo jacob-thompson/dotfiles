@@ -27,4 +27,5 @@ clipboard-read = allow
 
 working-directory = home
 
+keybind = cmd+x=text:\x03
 keybind = ctrl+x=text:\x03
