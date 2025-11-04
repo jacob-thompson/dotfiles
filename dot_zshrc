@@ -15,6 +15,9 @@ alias school="cd ~/Dropbox/school"
 
 export EDITOR="nvim"
 
+# gemini
+export PATH="$HOME/Documents/scripts/gemini:$PATH"
+
 # teal8
 export PATH="$HOME/Documents/teal8/bin:$PATH"
 
