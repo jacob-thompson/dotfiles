@@ -1,5 +1,7 @@
 fastfetch
 
+source ~/.keys
+
 alias vim="nvim"
 alias zshrc="vim ~/.zshrc"
 alias aliases="zshrc"
