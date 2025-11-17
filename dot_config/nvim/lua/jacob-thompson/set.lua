@@ -43,3 +43,9 @@ vim.api.nvim_create_autocmd("FileType", {
         vim.opt.formatoptions:remove({ "c", "r", "o" })
     end,
 })
+
+-- disable swap files
+vim.opt.swapfile = false
+
+-- add relative line numbers to netrw
+vim.g.netrw_bufsettings = 'noma nomod nu rnu nobl nowrap ro'
