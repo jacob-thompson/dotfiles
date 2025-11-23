@@ -37,6 +37,7 @@ return {
                 "lua_ls",
                 "clangd",
                 "pylsp",
+                "zls",
             },
             handlers = {
                 clangd = function()
