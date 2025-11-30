@@ -121,7 +121,7 @@ return {
                     end
                 end, { 'i' }),
                 ["<C-Space>"] = cmp.mapping.complete(),
-                ["<C-@>"] = cmp.mapping.complete(), -- Terminal sends C-@ for C-Space
+                ["<C-@>"] = cmp.mapping.complete(), -- Terminal emulators send C-@ (NUL) for C-Space
             }),
             sources = cmp.config.sources({
                 { name = 'nvim_lsp' },
