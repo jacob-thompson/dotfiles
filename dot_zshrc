@@ -1,0 +1,36 @@
+fastfetch
+
+source ~/.keys
+
+alias vim="nvim"
+alias zshrc="vim ~/.zshrc"
+alias aliases="zshrc"
+
+alias cfg="vim ~/.config"
+alias libcfg="vim ~/Library/'Application Support'"
+alias nvimcfg="vim ~/.config/nvim"
+
+alias serve="jekyll serve -l -H localhost"
+
+alias documents="cd ~/Documents"
+alias school="cd ~/Dropbox/school"
+
+export EDITOR="nvim"
+
+# gemini
+export PATH="$HOME/Documents/scripts/gemini:$PATH"
+
+# teal8
+export PATH="$HOME/Documents/teal8/bin:$PATH"
+
+# Ruby
+export PATH="$HOME/.rbenv/versions/3.2.6/bin:$PATH"
+
+# Python
+export PATH="/Users/jacob-thompson/Library/Python/3.13/bin:$PATH"
+
+# tkinter
+export PATH="/usr/local/opt/tcl-tk/bin:$PATH"
+
+# Created by `pipx` on 2024-11-10 06:11:30
+export PATH="$PATH:/Users/jacob-thompson/.local/bin"

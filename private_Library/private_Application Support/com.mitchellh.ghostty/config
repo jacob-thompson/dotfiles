@@ -1,0 +1,32 @@
+theme = dark:Catppuccin Mocha,light:Catppuccin Latte
+
+font-family = Monaspace Krypton
+font-size = 15
+font-feature = calt
+font-feature = liga
+font-feature = ss01
+font-feature = ss02
+font-feature = ss03
+font-feature = ss04
+font-feature = ss05
+font-feature = ss06
+font-feature = ss09
+font-feature = ss08
+font-feature = ss09
+
+mouse-hide-while-typing = true
+
+shell-integration-features = no-cursor
+cursor-style = block
+cursor-style-blink = false
+
+adjust-cell-width = 0
+adjust-cell-height = 20%
+
+clipboard-read = allow
+
+working-directory = home
+
+keybind = cmd+x=text:\x03
+keybind = ctrl+x=text:\x03
+keybind = shift+enter=text:\x1b\r
