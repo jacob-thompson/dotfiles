@@ -26,6 +26,7 @@ return {
             {},
             vim.lsp.protocol.make_client_capabilities(),
             cmp_lsp.default_capabilities())
+        capabilities.offset_encoding = { 'utf-16' }
 
         require("fidget").setup({})
         require("mason").setup()
@@ -64,6 +65,7 @@ return {
 
             zls = function()
                 lspconfig.zls.setup({
+                    capabilities = capabilities,
                     root_dir = lspconfig.util.root_pattern(".git", "build.zig", "zls.json"),
                     settings = {
                         zls = {
