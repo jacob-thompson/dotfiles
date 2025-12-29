@@ -9,3 +9,5 @@ vim.keymap.set("n", "<F4>", vim.cmd.q)
 
 -- F5 to show error/warning diagnostics in a floating window
 vim.keymap.set("n", "<F5>", ":lua vim.diagnostic.open_float()<CR>")
+
+vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action)
