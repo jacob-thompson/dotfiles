@@ -8,7 +8,7 @@ function map(mode, lhs, rhs, opts)
 end
 
 vim.g.copilot_no_tab_map = true
-map("i", "<S-Enter>", "copilot#Accept('<CR>')", { silent = true, expr = true })
+map("i", "<S-Tab>", "copilot#Accept('<CR>')", { silent = true, expr = true })
 
 vim.api.nvim_create_autocmd("VimEnter", {
   desc = "Disable Copilot by default on startup",
