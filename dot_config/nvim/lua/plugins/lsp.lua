@@ -54,7 +54,6 @@ return {
                         "--background-index",
                         "--clang-tidy",
                         "--completion-style=detailed",
-                        "--header-insertion=never",
                     },
                     filetypes = { "c", "cpp", "objc", "objcpp" },
                     root_dir = lspconfig.util.root_pattern("compile_commands.json", "compile_flags.txt", ".git"),

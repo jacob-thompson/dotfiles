@@ -15,7 +15,12 @@ alias serve="jekyll serve -l -H localhost"
 alias documents="cd ~/Documents"
 alias school="cd ~/Dropbox/school"
 
+# set neovim to be default text editor
 export EDITOR="nvim"
+
+# prevent clangd from automatically putting
+## unnecessary headers at the top of source files
+export CLANGD_FLAGS="--header-insertion=never"
 
 # gemini
 export PATH="$HOME/Documents/scripts/gemini:$PATH"
