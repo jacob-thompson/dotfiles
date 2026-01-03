@@ -13,6 +13,7 @@
   "lazy.nvim": { "branch": "main", "commit": "306a05526ada86a7b30af95c5cc81ffba93fef97" },
   "lightline": { "branch": "master", "commit": "e358557e1a9f9fc860416c8eb2e34c0404078155" },
   "log-highlight": { "branch": "main", "commit": "cac07cf2d1937038f6627a450bef4664f096b120" },
+  "markview": { "branch": "main", "commit": "18fc148c83925919d94f3fc8e5c74f2d108b9b44" },
   "mason-lspconfig.nvim": { "branch": "main", "commit": "4cfe411526a7a99c18281135e8b4765ae6330d15" },
   "mason.nvim": { "branch": "main", "commit": "57e5a8addb8c71fb063ee4acda466c7cf6ad2800" },
   "nvim-cmp": { "branch": "main", "commit": "85bbfad83f804f11688d1ab9486b459e699292d6" },
