@@ -22,6 +22,9 @@ export EDITOR="nvim"
 ## unnecessary headers at the top of source files
 export CLANGD_FLAGS="--header-insertion=never"
 
+# always export compile commands
+export CMAKE_EXPORT_COMPILE_COMMANDS=1
+
 # gemini
 export PATH="$HOME/Documents/scripts/gemini:$PATH"
 
