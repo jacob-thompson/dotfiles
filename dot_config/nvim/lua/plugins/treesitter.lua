@@ -7,7 +7,7 @@ return {
         require("nvim-treesitter.configs").setup({
             -- A list of parser names, or "all"
             ensure_installed = {
-                "vimdoc", "javascript", "typescript", "c", "lua", "rust",
+                "vimdoc", "javascript", "typescript", "c", "cpp", "lua", "rust",
                 "jsdoc", "bash", "python", "go"
             },
 
@@ -19,7 +19,8 @@ return {
             auto_install = true,
 
             indent = {
-                enable = true
+                enable = true,
+                disable = {"c", "cpp"} -- fixes weird indentation issues
             },
 
             highlight = {
