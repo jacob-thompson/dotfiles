@@ -19,7 +19,7 @@ return {
             kinds = { "comment", "imports" }, ---@type lsp.FoldingRangeKind[]
         },
         foldKeymaps = {
-            setup = true, -- modifies `h`, `l`, and `$`
+            setup = false, -- modifies `h`, `l`, and `$`
             hOnlyOpensOnFirstColumn = false,
         },
     },
