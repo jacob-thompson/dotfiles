@@ -11,3 +11,6 @@ vim.keymap.set("n", "<F4>", vim.cmd.q)
 vim.keymap.set("n", "<F5>", ":lua vim.diagnostic.open_float()<CR>")
 
 vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action)
+
+-- remove this useless keymap that I always hit accidentally for some reason
+vim.keymap.set("i", "<C-u>", "<Nop>")
