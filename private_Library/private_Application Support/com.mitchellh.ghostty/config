@@ -30,3 +30,6 @@ working-directory = home
 keybind = cmd+x=text:\x03
 keybind = ctrl+x=text:\x03
 keybind = shift+enter=text:\x1b\r
+
+quick-terminal-position =
+quick-terminal-size = 300px, 50%
