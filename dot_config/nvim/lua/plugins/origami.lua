@@ -18,7 +18,7 @@ return {
             gitsignsCount = true, -- requires `gitsigns.nvim`
         },
         autoFold = {
-            enabled = true,
+            enabled = false,
             kinds = { "comment", "imports" }, ---@type lsp.FoldingRangeKind[]
         },
         foldKeymaps = {
