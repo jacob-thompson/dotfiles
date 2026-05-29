@@ -2,6 +2,7 @@ return {
     "OXY2DEV/markview.nvim",
     name = "markview",
     lazy = false,
+    enabled = false,
     config = function()
         vim.api.nvim_set_keymap(
             "n",
