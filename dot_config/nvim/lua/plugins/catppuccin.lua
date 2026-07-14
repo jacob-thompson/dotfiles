@@ -7,10 +7,7 @@ return {
         config = function()
             require("catppuccin").setup({
                 flavour = "auto",
-                integrations = {
-                    copilot_vim = true,
-                    telescope = { enabled = true },
-                },
+                auto_integrations = true,
                 background = {
                     light = "latte",
                     dark = "mocha",
