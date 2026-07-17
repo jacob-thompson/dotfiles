@@ -33,3 +33,5 @@ keybind = shift+enter=text:\x1b\r
 
 quick-terminal-position =
 quick-terminal-size = 300px, 50%
+
+bell-features = system, no-attention
