@@ -19,6 +19,20 @@ vim.api.nvim_create_autocmd("VimEnter", {
     command = "Copilot disable",
 })
 
+-- Keymap to toggle Copilot on and off
+vim.g.copilot_active = false
+vim.keymap.set("n", "<leader>cp", function()
+    if vim.g.copilot_active then
+        vim.cmd("Copilot disable")
+        vim.g.copilot_active = false
+        print("Copilot Disabled")
+    else
+        vim.cmd("Copilot enable")
+        vim.g.copilot_active = true
+        print("Copilot Enabled")
+    end
+end, { desc = "Toggle GitHub Copilot", noremap = true, silent = true })
+
 return {
     "github/copilot.vim",
     name = "copilot",
