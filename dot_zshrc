@@ -12,8 +12,7 @@ alias nvimcfg="vim ~/.config/nvim"
 
 alias serve="jekyll serve -l -H localhost"
 
-alias documents="cd ~/Documents"
-alias school="cd ~/Dropbox/school"
+alias school="cd ~/Documents/sharedfolder/ucsc"
 
 # set neovim to be default text editor
 export EDITOR="nvim"
